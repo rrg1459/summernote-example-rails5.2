@@ -3,6 +3,7 @@
 
 ruby '2.5.5'
 
+gem 'bundler', '~> 2.0.1'
 gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 
