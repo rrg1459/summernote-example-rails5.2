@@ -7,8 +7,8 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'rails', '~> 5.2.3'
-gem 'pg' #,                       '~> 1.1.4'    # Use postgresql as the database for Active Record
-# gem 'sqlite3', '~> 1.3.6'
+gem 'pg'
+
 gem 'carrierwave', '~> 1.2.1'
 
 gem 'jquery-rails'
