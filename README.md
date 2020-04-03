@@ -4,9 +4,9 @@ http://bit.ly/summernote-rails-for-fileupload-1 on Jun. 6, 2015, in Korean
 
 http://bit.ly/summernote-rails-for-fileupload_2 on Jan. 2, 2016, in Korean
 
-Rails version is bumped up to **5.2.0.rc1** on January 30, 2018 and ruby **2.5.0**. And Bootstrap has been updated to the official version **4.0.0** on January 18, 2018.
+Rails version is bumped up to **5.2.0.rc1** on January 30, 2018 and ruby **2.5.5**. And Bootstrap has been updated to the official version **4.4.1** on January 18, 2018.
 
-The version of **summernote-rails** in Rubygems.org is `0.8.9.2`.
+The version of **summernote-rails** in Rubygems.org is `0.8.12.0`.
 
 In this post, I'll update how to use summernote-rails gem and, introduce how to upload and delete image files in the summernote editor.
 
@@ -15,9 +15,9 @@ First of all, my local dev environment is as follows:
 
 ```sh
 $ ruby -v
-ruby 2.5.0
+ruby 2.5.5
 $ rails -v
-Rails 5.2.0.rc1
+Rails 5.2.4.2
 ```
 
 Let's get started.

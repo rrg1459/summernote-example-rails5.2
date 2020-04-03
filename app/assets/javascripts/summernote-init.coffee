@@ -33,6 +33,19 @@ $(document).on 'turbolinks:load', ->
   $('[data-provider="summernote"]').each ->
     $(this).summernote
       lang: 'es-ES'
+      toolbar: [
+                  ["style", ["bold", "italic", "underline", "clear"]],
+                  ["style", ["style"]],
+                  ["color", ["color"]],
+                  ["fontsize", ["fontsize"]],
+                  ["height", ["height"]],
+                  ["para", ["paragraph", "ul", "ol"]],
+                  ['insert', ['picture', 'link']],
+                  ['view', ['fullscreen']],
+                  ["undo", ["undo"]]
+                  ["redo", ["redo"]]
+                  ["help", ["help"]]
+               ]
       height: 400
       callbacks:
         onInit: ->
