@@ -3,10 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.5'
 
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3.8'
+
 gem 'bootsnap', '>= 1.1.0', require: false
 
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 6.1.7.6'
+
 gem 'pg'
 
 gem 'carrierwave', '~> 1.2.1'
@@ -18,7 +20,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap'
-gem 'summernote-rails', path: '../'
+gem 'summernote-rails' #, path: '../'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
