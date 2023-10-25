@@ -17,7 +17,7 @@ First of all, my local dev environment is as follows:
 $ ruby -v
 ruby 2.5.5
 $ rails -v
-Rails 5.2.4.2
+Rails 6.1.7.6
 ```
 
 Let's get started.
@@ -59,7 +59,7 @@ $ git checkout -b develop
 We'll use **Bootstrap**, which is dependent on **jQuery** library and so you should add **jquery-rails** gem. The reason is why this project is implemented using **Rails 5.1+** which is not any more dependent on **jQuery** and does not include by default in Gemfile. (https://github.com/rails/jquery-rails)
 
 ```sh
-gem 'jquery-rails', '~> 4.3.1'
+gem 'jquery-rails', '~> 4.6.0'
 ```
 
 >  **Note**: From **Rails 5.1**, rails-ujs library substitute everything **jquery_ujs** does. So **jquery_ujs** is not needed any more on using **jquery**.  https://gorails.com/forum/do-i-need-rails-ujs-and-jquery_ujs
@@ -83,7 +83,7 @@ As of November, 2017, the latest version of Bootstrap is `4.0.0.beta2.1`. (https
 Next, add the following code line to Gemfile and bundle install
 
 ```sh
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 5.3.1'
 ```
 
 To use Bootstrap fully, you need to rename **application.css** file to **application.scss**. After that, you delete all contents of that file and add the following code line.
@@ -302,7 +302,7 @@ Here, there is one point to update. You need to change`btn btn-default` to `btn 
 And now, it's time to add summernote-rail gem. Current available version of summernote-rails published in rubygems.org is **0.8.9.2**.
 
 ```ruby
-gem 'summernote-rails', '~> 0.8.9'
+gem 'summernote-rails', '~> 0.8.12.0'
 ```
 
 After bundling, in app/assets/stylesheets/**application.scss**, you should import **summernote** stylesheet for Bootstrap 4.
