@@ -11,7 +11,7 @@ gem 'rails', '~> 6.1.7.6'
 
 gem 'pg'
 
-gem 'carrierwave', '~> 1.2.1'
+gem 'carrierwave', '~> 2.2.5'
 
 gem 'jquery-rails'
 gem 'sassc-rails'
