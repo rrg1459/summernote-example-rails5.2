@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.5'
 
-gem 'puma', '~> 4.3.8'
+gem 'puma', '~> 5.6.7'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -11,7 +11,7 @@ gem 'rails', '~> 6.1.7.6'
 
 gem 'pg'
 
-gem 'carrierwave', '~> 1.2.1'
+gem 'carrierwave', '~> 1.3.2'
 
 gem 'jquery-rails'
 gem 'sassc-rails'
